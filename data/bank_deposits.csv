@@ -1,0 +1,6 @@
+bank_transaction_id,posted_at,payout_id,amount_usd
+bank-501,2026-10-02,po-1001,1250.00
+bank-502,2026-10-04,po-1002,840.00
+bank-503,2026-10-05,po-1002,840.00
+bank-504,2026-10-05,po-1003,590.00
+bank-505,2026-10-06,po-9999,75.00

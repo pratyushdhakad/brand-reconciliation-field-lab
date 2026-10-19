@@ -1,0 +1,6 @@
+payout_id,status,expected_usd,observed_usd,difference_usd,bank_transaction_ids,next_action
+po-1001,MATCHED,1250.00,1250.00,0.00,bank-501,No action; retain the payout-to-bank evidence.
+po-1002,DUPLICATE_BANK_ROW,840.00,1680.00,-840.00,bank-502|bank-503,Check repeated payout mapping with finance before correcting a ledger row.
+po-1003,AMOUNT_MISMATCH,610.00,590.00,20.00,bank-504,Ask finance for bank detail and fee or adjustment evidence; do not auto-post a correction.
+po-1004,PENDING_TIMING,300.00,0.00,300.00,,Check again after the settlement window; do not book a missing-cash loss yet.
+po-9999,UNMATCHED_BANK_ROW,0.00,75.00,-75.00,bank-505,Identify the bank deposit owner and source; do not attribute it to Shopify without evidence.

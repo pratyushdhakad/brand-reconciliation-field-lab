@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-06",
+  "basis": "Shopify payout net amount versus bank deposit amount by payout ID",
+  "counts": {
+    "MATCHED": 1,
+    "PENDING_TIMING": 1,
+    "AMOUNT_MISMATCH": 1,
+    "DUPLICATE_BANK_ROW": 1,
+    "UNMATCHED_BANK_ROW": 1
+  },
+  "unresolved_payout_ids": [
+    "po-1002",
+    "po-1003",
+    "po-1004",
+    "po-9999"
+  ]
+}
